@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculatrice</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="calculatrice.css">
+    </head>
+    <body>
+        <section>
+            <div id="p1">
+            </div>
+            <div id="p2">
+            </div>
+            <div id="p3">
+                <table>
+                    <tr>
+                        <td onclick="ajout(7)">7</td>
+                        <td onclick="ajout(8)">8</td>
+                        <td onclick="ajout(9)">9</td>
+                        <td onclick="ajout('/')">/</td>
+                        <td></td>
+                        <td onclick="ajout('C')">C</td>
+                    </tr>
+                    <tr>
+                        <td onclick="ajout(4)">4</td>
+                        <td onclick="ajout(5)">5</td>
+                        <td onclick="ajout(6)">6</td>
+                        <td onclick="ajout('×')">x</td>
+                        <td onclick="ajout('(')">(</td>
+                        <td onclick="ajout(')')">)</td>
+                    </tr>
+                    <tr>
+                        <td onclick="ajout(1)">1</td>
+                        <td onclick="ajout(2)">2</td>
+                        <td onclick="ajout(3)">3</td>
+                        <td onclick="ajout('-')">-</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td onclick="ajout(0)">0</td>
+                        <td onclick="ajout('.')">.</td>
+                        <td></td>
+                        <td onclick="ajout('+')">+</td>
+                        <td colspan="2" onclick="ajout('=')">=</td>
+                    </tr>
+                </table>
+            </div>
+        </section>      
+     </body>
+ 
+    <script src="calculatrice.js"></script>
+</html>
